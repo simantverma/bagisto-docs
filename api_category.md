@@ -212,7 +212,7 @@ from = (5 * 2)  i.e. 10
 
 ## 2. Get All Categories Without Pagination: <a id="get-all-categories-without-pagination"></a>
 
-If you don't want to use the pagination and want to access all the store's categories at once, then you have to send a filter parameter named: `pagination` with value `zero`. By doing this you will get all categories objects at once under the data object and will not get the both link and meta objects.
+If you don't want to use the pagination and want to access all the store's categories at once, then you have to send a filter parameter named: `pagination` with value `zero`. By doing this you will get all categories objects at once under the data object and will not get both the link and meta objects.
 
 > **Like: pagination=0**
 
