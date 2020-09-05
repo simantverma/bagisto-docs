@@ -188,7 +188,7 @@ To update the customer's specific address, you have to pass an address_id as a r
 
 ## 4. Create A New Address Of Customer: <a id="add-customer-address"></a>
 
-You can also create a new address of a login customer. To add address, you have to use **`addresses/create`** resource in API url and have to pass the address fields in Request Payload.
+You can also create a new address of a logged-in customer. To add address, you have to use **`addresses/create`** resource in API url and have to pass the address fields in Request Payload.
 
 > _http(s)://example.com/public/api/addresses/create_
 
