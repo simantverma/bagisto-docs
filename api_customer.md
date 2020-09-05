@@ -30,7 +30,7 @@ In the customer's APIs: Firstly, we will look for the customer's authentication 
 
 ## 2. Customer's Reset Password: <a id="customer-reset-password"></a>
 
-You can also use the API for reset the customer's password by providing the valid customer's email address. In this API request, you have to use `customer/forgot-password` resource with `email` as a Request Payload. An email will be send on the provided email address, only if the same email address will exist in the Bagisto Store.
+You can also use the API for reset the customer's password by providing the valid customer's email address. In this API request, you have to use `customer/forgot-password` resource with `email` as a Request Payload. An email will be send to the provided email address, only if the same email address will exist in the Bagisto Store.
 
 > _http(s)://example.com/public/api/customer/forgot-password_
 
@@ -50,7 +50,7 @@ You can also use the API for reset the customer's password by providing the vali
 
 ![bagisto_cust_forgot](assets/images/Bagisto_Api/bagisto_cust_forgot.jpg){:class="screenshot-dimension center"}
 
-- In case you provide an invalid or unregistered email address , then no email will be send to provided email address and response will be like:
+- In case if you have provided an invalid or unregistered email address , then no email will be send to provided email address and response will be like:
 
 ##### Response:
 
@@ -112,7 +112,7 @@ You can get the customer's information only for the logged in customer. To retri
 
 ## 5. Modify Customer's Profile Details: <a id="modify-customer-profile"></a>
 
-You can update the customer's account information (only for the currently logged-in customer). To achieve this task, you can use the `customer/profile` API call resource. This API call will return you the personal details of login customer.
+You can update the customer's account information (only for the currently logged-in customer). To achieve this task, you can use the `customer/profile` API call resource. This API call will return you the personal details of the logged-in customer.
 
 > _http(s)://example.com/public/api/customer/profile_
 
