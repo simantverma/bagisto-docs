@@ -118,7 +118,7 @@ You can also get all the wishlists of Store's customers at once without paginati
 
 ## 2. Get all Wishlists Of A Customer: <a id="get-all-wishlist-of-customer"></a>
 
-To get all wishlists of a specific customer, you have to pass a `customer_id` as a query parameter like **`wishlist?customer_id={id}`** in API url. By using this resource and query parameter, you will get a array of wishlist(s) objects of a customer under **`data object`** in response.
+To get all wishlists of a specific customer, you have to pass a `customer_id` as a query parameter like **`wishlist?customer_id={id}`** in API url. By using this resource and query parameter, you will get an array of wishlist(s) objects of a customer under **`data object`** in response.
 
 > _http(s)://example.com/public/api/wishlist?customer_id={id}_
 
@@ -164,7 +164,7 @@ To add a product to customer's wishlist, you have to pass a `product_id` as a re
 
 - This `wishlist/add/{id}` API call resource will add a new wishlist for a specific product, only if the customer has logged in currently into the store.
 
-**Note**: _In the `wishlist/add/{id}` resource API call, we used `GET HTTP verb` to add a new wishlist for a login customer._
+**Note**: _In the `wishlist/add/{id}` resource API call, we used `GET HTTP verb` to add a new wishlist for a logged-in customer._
 
 ##### Request:
 
