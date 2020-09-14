@@ -27,6 +27,7 @@ At the time of writing, Bagisto’s main feature list includes:
 - Customer Cart, Wishlist, Product Reviews
 - Simple and Configurable Products
 
+
 Bagisto features an administration panel with a Dashboard, sales data, a catalog for Products and Customer management:
 
 Besides the features already available, Bagisto’s roadmap includes:
@@ -43,6 +44,21 @@ Besides the features already available, Bagisto’s roadmap includes:
 - CI/CD Pipeline management
 - New product types like subscriptions, bookings, and recurring billing
 - GDPR compliance
+-Config to add custom CSS and javascript (Eg. google analytics)
+-Added some config for payment method additional information
+-Customer group price for products implemented
+-Image search feature added with tensorflow.js
+-Migrated to Laravel 7
+-Search engine optimization with rich snippet
+-Blade file tracer
+-Search with Elastic and Algolia
+-Support for admin multi theme
+-One click upgrade
+-Social login (Facebook, Twitter, Google, Linkedin, Github)
+-Social share
+-Store configuration added
+-Feature to disable compare option
+-Store configuration added for product listing
 
 To learn more about Bagisto’s features and try a demo, check out [Bagisto](https://bagisto.com){: target="\_blank" .link-color}. You can get started with the source code by checking out the repo on GitHub at [bagisto/bagisto](https://github.com/bagisto/bagisto){: target="\_blank" .link-color}.
 
